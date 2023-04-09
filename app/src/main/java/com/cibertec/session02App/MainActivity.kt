@@ -20,7 +20,6 @@ class MainActivity : AppCompatActivity() {
         val edtNames : TextInputEditText = findViewById(R.id.edtNames)
         val edtAge : TextInputEditText = findViewById(R.id.edtAge)
         val rdMale : RadioButton = findViewById(R.id.rdbtnMale)
-        val rdFemale : RadioButton = findViewById(R.id.rdbtnFemale)
         val chkTerms : CheckBox = findViewById(R.id.chkTerms)
 
         btnSend.setOnClickListener{
@@ -45,11 +44,17 @@ class MainActivity : AppCompatActivity() {
             }
 
             //NAVEGA ENTRE VENTANAS
-            val bundle = Bundle()
+            val bundle = Bundle().apply {
+                putString("KEY_NAME",names)
+                putString("KEY_AGE",age)
+                putString("KEY_GENRE",genre)
+            }
 
+            /*
             bundle.putString("KEY_NAME",names)
             bundle.putString("KEY_AGE",age)
             bundle.putString("KEY_GENRE",genre)
+            */
 
             val intent = Intent(this, ShowActivity::class.java)
             intent.putExtras(bundle)

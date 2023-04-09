@@ -10,4 +10,6 @@
     <string name="activity_main_valid_names">Debe ingresar sus nombres</string>
     <string name="activity_main_valid_age">Debe ingresar su edad</string>
     <string name="activity_main_valid_terms">Debe aceptar los terminos y condiciones</string>
+    <string name="activity_show_tv_desc">Desconocido</string>
+    <string name="activity_show_btn_datos">Mostrar Datos</string>
 </resources>
