@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Session02App</string>
+    <string name="activity_main_tittle">Formulario registro</string>
+    <string name="activity_main_input_names">Ingrese sus nombres</string>
+    <string name="activity_main_input_age">Ingrese su edad</string>
+    <string name="activity_main_radio_sex01">Masculino</string>
+    <string name="activity_main_radio_sex02">Femenino</string>
+    <string name="activity_main_check_term">Aceptar terminos</string>
+    <string name="activity_main_btn_env">Enviar</string>
+    <string name="activity_main_valid_names">Debe ingresar sus nombres</string>
+    <string name="activity_main_valid_age">Debe ingresar su edad</string>
+    <string name="activity_main_valid_terms">Debe aceptar los terminos y condiciones</string>
+</resources>
